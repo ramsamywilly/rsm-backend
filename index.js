@@ -28,7 +28,7 @@ const productRoutes = require('./src/products/products.route');
 const reviewRoutes = require('./src/reviews/reviews.router');
 const orderRoutes = require('./src/orders/orders.router');
 const statsRoutes = require('./src/stats/stats.route');
-const blogRoutes = require('./src/blogs/blog.Routes');
+const blogRoutes = require('./src/blogs/blog.routes');
 const occasionRoutes = require('./src/occasions/occasion.router');
 
 app.use('/api/auth', authRoutes);
